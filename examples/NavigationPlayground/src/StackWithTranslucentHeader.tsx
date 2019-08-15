@@ -6,7 +6,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { BlurView } from 'react-native-blur';
+import { BlurView } from 'expo-blur';
 import { isIphoneX } from 'react-native-iphone-x-helper';
 import {
   createStackNavigator,

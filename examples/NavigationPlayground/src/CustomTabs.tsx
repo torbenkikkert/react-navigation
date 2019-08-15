@@ -6,9 +6,10 @@ import {
   NavigationState,
   SafeAreaView,
   TabRouter,
+  createAppContainer,
+  NavigationScreenProp,
 } from 'react-navigation';
-import { createAppContainer } from 'react-navigation';
-import { NavigationScreenProp } from 'react-navigation';
+
 import { Button } from './commonComponents/ButtonWithMargin';
 import SampleText from './SampleText';
 
@@ -129,4 +130,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CustomTabs;
+export default () => <CustomTabs detached />;
