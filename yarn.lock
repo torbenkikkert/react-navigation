@@ -8061,13 +8061,6 @@ react-native-safe-area-view@^0.14.1:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-react-native-safe-area-view@^0.14.6:
-  version "0.14.8"
-  resolved "https://registry.yarnpkg.com/react-native-safe-area-view/-/react-native-safe-area-view-0.14.8.tgz#ef33c46ff8164ae77acad48c3039ec9c34873e5b"
-  integrity sha512-MtRSIcZNstxv87Jet+UsPhEd1tpGe8cVskDXlP657x6rHpSrbrc+y13ZNXrwAgGNNhqQNX7UJT68ZIq//ZRmvw==
-  dependencies:
-    hoist-non-react-statics "^2.3.1"
-
 "react-native-screens@^1.0.0 || ^1.0.0-alpha":
   version "1.0.0-alpha.22"
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.22.tgz#7a120377b52aa9bbb94d0b8541a014026be9289b"
@@ -8164,14 +8157,13 @@ react-navigation-stack@~1.4.0:
   resolved "https://registry.yarnpkg.com/react-navigation-stack/-/react-navigation-stack-1.4.0.tgz#69cdb029ea4ee5877d7e933b3117dc90bc841eb2"
   integrity sha512-zEe9wCA0Ot8agarYb//0nSWYW1GM+1R0tY/nydUV0EizeJ27At0EklYVWvYEuYU6C48va6cu8OPL7QD/CcJACw==
 
-react-navigation-tabs@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-2.4.2.tgz#6c5ea40088a0626b72a8e035695331ece1285cff"
-  integrity sha512-f48wwdRd3HmAb4PML1hEkOKxLTki+7f6RqABH2Z9FGt2CfCiqonBrvP9zpoq317PXe6GgB2KCyeCmNUehT440g==
+react-navigation-tabs@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-navigation-tabs/-/react-navigation-tabs-2.3.0.tgz#0288830e6ac5157f203ee3947bc29b0d6eda66b1"
+  integrity sha512-0LiTwXEVt7XdzVT02fvg14NMz90zfPUyw1g2mIrWA70+M56br5k6tXKrZg8NjH1MgWVz5TWBx90SI0MhD2OssA==
   dependencies:
     hoist-non-react-statics "^3.3.0"
     react-lifecycles-compat "^3.0.4"
-    react-native-safe-area-view "^0.14.6"
     react-native-tab-view "^2.9.0"
 
 react-proxy@^1.1.7:
